@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306C76A82B58D47500914FDA /* marbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76A72B58D47500914FDA /* marbleApp.swift */; };
+		306C76AA2B58D47500914FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76A92B58D47500914FDA /* ContentView.swift */; };
+		306C76AC2B58D47700914FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306C76AB2B58D47700914FDA /* Assets.xcassets */; };
+		306C76AF2B58D47700914FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306C76AE2B58D47700914FDA /* Preview Assets.xcassets */; };
+		306C76B92B58D47700914FDA /* marbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76B82B58D47700914FDA /* marbleTests.swift */; };
+		306C76C32B58D47700914FDA /* marbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76C22B58D47700914FDA /* marbleUITests.swift */; };
+		306C76C52B58D47700914FDA /* marbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306C76B52B58D47700914FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306C769C2B58D47500914FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306C76A32B58D47500914FDA;
+			remoteInfo = marble;
+		};
+		306C76BF2B58D47700914FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306C769C2B58D47500914FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306C76A32B58D47500914FDA;
+			remoteInfo = marble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306C76A42B58D47500914FDA /* marble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306C76A72B58D47500914FDA /* marbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleApp.swift; sourceTree = "<group>"; };
+		306C76A92B58D47500914FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306C76AB2B58D47700914FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306C76AE2B58D47700914FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		306C76B42B58D47700914FDA /* marbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306C76B82B58D47700914FDA /* marbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleTests.swift; sourceTree = "<group>"; };
+		306C76BE2B58D47700914FDA /* marbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306C76C22B58D47700914FDA /* marbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleUITests.swift; sourceTree = "<group>"; };
+		306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306C76A12B58D47500914FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76B12B58D47700914FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76BB2B58D47700914FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306C769B2B58D47500914FDA = {
+			isa = PBXGroup;
+			children = (
+				306C76A62B58D47500914FDA /* marble */,
+				306C76B72B58D47700914FDA /* marbleTests */,
+				306C76C12B58D47700914FDA /* marbleUITests */,
+				306C76A52B58D47500914FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306C76A52B58D47500914FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306C76A42B58D47500914FDA /* marble.app */,
+				306C76B42B58D47700914FDA /* marbleTests.xctest */,
+				306C76BE2B58D47700914FDA /* marbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306C76A62B58D47500914FDA /* marble */ = {
+			isa = PBXGroup;
+			children = (
+				306C76A72B58D47500914FDA /* marbleApp.swift */,
+				306C76A92B58D47500914FDA /* ContentView.swift */,
+				306C76AB2B58D47700914FDA /* Assets.xcassets */,
+				306C76AD2B58D47700914FDA /* Preview Content */,
+			);
+			path = marble;
+			sourceTree = "<group>";
+		};
+		306C76AD2B58D47700914FDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				306C76AE2B58D47700914FDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		306C76B72B58D47700914FDA /* marbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				306C76B82B58D47700914FDA /* marbleTests.swift */,
+			);
+			path = marbleTests;
+			sourceTree = "<group>";
+		};
+		306C76C12B58D47700914FDA /* marbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				306C76C22B58D47700914FDA /* marbleUITests.swift */,
+				306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */,
+			);
+			path = marbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306C76A32B58D47500914FDA /* marble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C76C82B58D47700914FDA /* Build configuration list for PBXNativeTarget "marble" */;
+			buildPhases = (
+				306C76A02B58D47500914FDA /* Sources */,
+				306C76A12B58D47500914FDA /* Frameworks */,
+				306C76A22B58D47500914FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marble;
+			productName = marble;
+			productReference = 306C76A42B58D47500914FDA /* marble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306C76B32B58D47700914FDA /* marbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C76CB2B58D47700914FDA /* Build configuration list for PBXNativeTarget "marbleTests" */;
+			buildPhases = (
+				306C76B02B58D47700914FDA /* Sources */,
+				306C76B12B58D47700914FDA /* Frameworks */,
+				306C76B22B58D47700914FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306C76B62B58D47700914FDA /* PBXTargetDependency */,
+			);
+			name = marbleTests;
+			productName = marbleTests;
+			productReference = 306C76B42B58D47700914FDA /* marbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		306C76BD2B58D47700914FDA /* marbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C76CE2B58D47700914FDA /* Build configuration list for PBXNativeTarget "marbleUITests" */;
+			buildPhases = (
+				306C76BA2B58D47700914FDA /* Sources */,
+				306C76BB2B58D47700914FDA /* Frameworks */,
+				306C76BC2B58D47700914FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306C76C02B58D47700914FDA /* PBXTargetDependency */,
+			);
+			name = marbleUITests;
+			productName = marbleUITests;
+			productReference = 306C76BE2B58D47700914FDA /* marbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306C769C2B58D47500914FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					306C76A32B58D47500914FDA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					306C76B32B58D47700914FDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 306C76A32B58D47500914FDA;
+					};
+					306C76BD2B58D47700914FDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 306C76A32B58D47500914FDA;
+					};
+				};
+			};
+			buildConfigurationList = 306C769F2B58D47500914FDA /* Build configuration list for PBXProject "marble" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306C769B2B58D47500914FDA;
+			productRefGroup = 306C76A52B58D47500914FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306C76A32B58D47500914FDA /* marble */,
+				306C76B32B58D47700914FDA /* marbleTests */,
+				306C76BD2B58D47700914FDA /* marbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306C76A22B58D47500914FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C76AF2B58D47700914FDA /* Preview Assets.xcassets in Resources */,
+				306C76AC2B58D47700914FDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76B22B58D47700914FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76BC2B58D47700914FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306C76A02B58D47500914FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C76AA2B58D47500914FDA /* ContentView.swift in Sources */,
+				306C76A82B58D47500914FDA /* marbleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76B02B58D47700914FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C76B92B58D47700914FDA /* marbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306C76BA2B58D47700914FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C76C32B58D47700914FDA /* marbleUITests.swift in Sources */,
+				306C76C52B58D47700914FDA /* marbleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306C76B62B58D47700914FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306C76A32B58D47500914FDA /* marble */;
+			targetProxy = 306C76B52B58D47700914FDA /* PBXContainerItemProxy */;
+		};
+		306C76C02B58D47700914FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306C76A32B58D47500914FDA /* marble */;
+			targetProxy = 306C76BF2B58D47700914FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		306C76C62B58D47700914FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306C76C72B58D47700914FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306C76C92B58D47700914FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marble/Preview Content\"";
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306C76CA2B58D47700914FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marble/Preview Content\"";
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		306C76CC2B58D47700914FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marble";
+			};
+			name = Debug;
+		};
+		306C76CD2B58D47700914FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marble";
+			};
+			name = Release;
+		};
+		306C76CF2B58D47700914FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marble;
+			};
+			name = Debug;
+		};
+		306C76D02B58D47700914FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ4RHWQQY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = marble.marbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306C769F2B58D47500914FDA /* Build configuration list for PBXProject "marble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306C76C62B58D47700914FDA /* Debug */,
+				306C76C72B58D47700914FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306C76C82B58D47700914FDA /* Build configuration list for PBXNativeTarget "marble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306C76C92B58D47700914FDA /* Debug */,
+				306C76CA2B58D47700914FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306C76CB2B58D47700914FDA /* Build configuration list for PBXNativeTarget "marbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306C76CC2B58D47700914FDA /* Debug */,
+				306C76CD2B58D47700914FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306C76CE2B58D47700914FDA /* Build configuration list for PBXNativeTarget "marbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306C76CF2B58D47700914FDA /* Debug */,
+				306C76D02B58D47700914FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306C769C2B58D47500914FDA /* Project object */;
+}
