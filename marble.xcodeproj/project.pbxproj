@@ -14,6 +14,9 @@
 		306C76B92B58D47700914FDA /* marbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76B82B58D47700914FDA /* marbleTests.swift */; };
 		306C76C32B58D47700914FDA /* marbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76C22B58D47700914FDA /* marbleUITests.swift */; };
 		306C76C52B58D47700914FDA /* marbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */; };
+		306C76D42B5B62BD00914FDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76D32B5B62BD00914FDA /* User.swift */; };
+		306C76D62B5B6C0600914FDA /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76D52B5B6C0600914FDA /* userInfo.swift */; };
+		306C76D92B5B6DE400914FDA /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C76D82B5B6DE400914FDA /* UserError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		306C76BE2B58D47700914FDA /* marbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		306C76C22B58D47700914FDA /* marbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleUITests.swift; sourceTree = "<group>"; };
 		306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		306C76D32B5B62BD00914FDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		306C76D52B5B6C0600914FDA /* userInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
+		306C76D82B5B6DE400914FDA /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,9 @@
 		306C76A62B58D47500914FDA /* marble */ = {
 			isa = PBXGroup;
 			children = (
-				306C76A72B58D47500914FDA /* marbleApp.swift */,
-				306C76A92B58D47500914FDA /* ContentView.swift */,
-				306C76AB2B58D47700914FDA /* Assets.xcassets */,
-				306C76AD2B58D47700914FDA /* Preview Content */,
+				306C76DF2B5B72AD00914FDA /* api */,
+				306C76DB2B5B721500914FDA /* sources */,
+				306C76DA2B5B71FF00914FDA /* resources */,
 			);
 			path = marble;
 			sourceTree = "<group>";
@@ -125,6 +130,58 @@
 				306C76C42B58D47700914FDA /* marbleUITestsLaunchTests.swift */,
 			);
 			path = marbleUITests;
+			sourceTree = "<group>";
+		};
+		306C76DA2B5B71FF00914FDA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				306C76AB2B58D47700914FDA /* Assets.xcassets */,
+				306C76AD2B58D47700914FDA /* Preview Content */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		306C76DB2B5B721500914FDA /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				306C76A72B58D47500914FDA /* marbleApp.swift */,
+				306C76E02B5B72D000914FDA /* enum */,
+				306C76DC2B5B723B00914FDA /* views */,
+				306C76DE2B5B726900914FDA /* model */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		306C76DC2B5B723B00914FDA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				306C76A92B58D47500914FDA /* ContentView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		306C76DE2B5B726900914FDA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				306C76D32B5B62BD00914FDA /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		306C76DF2B5B72AD00914FDA /* api */ = {
+			isa = PBXGroup;
+			children = (
+				306C76D52B5B6C0600914FDA /* userInfo.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		306C76E02B5B72D000914FDA /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				306C76D82B5B6DE400914FDA /* UserError.swift */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306C76D62B5B6C0600914FDA /* userInfo.swift in Sources */,
 				306C76AA2B58D47500914FDA /* ContentView.swift in Sources */,
 				306C76A82B58D47500914FDA /* marbleApp.swift in Sources */,
+				306C76D92B5B6DE400914FDA /* UserError.swift in Sources */,
+				306C76D42B5B62BD00914FDA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
